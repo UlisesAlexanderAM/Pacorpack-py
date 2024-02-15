@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pacorpack-py"
+version = "1.0.1"
+description = ""
+authors = ["Ulises Alexander AM <30351520+UlisesAlexanderAM@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "poetry"
+update_changelog_on_bump = true
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
